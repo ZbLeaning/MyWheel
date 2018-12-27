@@ -12,7 +12,6 @@ public static String genRandomStr(int length){
         Random r = new Random();
         while(count < length){
             //生成随机数，取绝对值，防止生成负数，
-
             i = Math.abs(r.nextInt(maxNum));  //生成的数最大为36-1
 
             if (i >= 0 && i < str.length) {
